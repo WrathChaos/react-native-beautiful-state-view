@@ -1,8 +1,12 @@
 {
-  "name": "react-native-library-boilerplate",
-  "version": "0.0.2",
-  "description": "Description for library",
+  "name": "react-native-beautiful-state-view",
+  "version": "0.0.1",
+  "description": "Fully customizable & Beautiful State View for React Native.",
   "keywords": [
+    "beautiful",
+    "state-view",
+    "state",
+    "view",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -14,9 +18,9 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-library-boilerplate/issues",
+  "bugs": "https://github.com/WrathChaos/react-native-beautiful-state-view/issues",
   "main": "./lib/src/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
+  "repository": "git@github.com:WrathChaos/react-native-beautiful-state-view.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
