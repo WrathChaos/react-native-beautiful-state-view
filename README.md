@@ -2,7 +2,7 @@
 
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-beautiful-state-view)
 
-[![React Native Library Boiler Plate](https://img.shields.io/badge/-React%20Native%20Library%20Boilerplate-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-beautiful-state-view)
+[![Fully customizable & Beautiful State View for React Native](https://img.shields.io/badge/-Fully%20customizable%20%26%20Beautiful%20State%20View%20for%20React%20Native.-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-beautiful-state-view)
 
 [![npm version](https://img.shields.io/npm/v/react-native-beautiful-state-view.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-beautiful-state-view)
 [![npm](https://img.shields.io/npm/dt/react-native-beautiful-state-view.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-beautiful-state-view)
