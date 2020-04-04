@@ -1,6 +1,6 @@
 {
   "name": "react-native-beautiful-state-view",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fully customizable & Beautiful State View for React Native.",
   "keywords": [
     "beautiful",
@@ -19,7 +19,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-beautiful-state-view/issues",
-  "main": "./lib/src/BeautifulStateView.js",
+  "main": "./lib/BeautifulStateView.js",
   "repository": "git@github.com:WrathChaos/react-native-beautiful-state-view.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
