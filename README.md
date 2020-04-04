@@ -1,21 +1,18 @@
-<img alt="React Native Library Boilerplate" src="assets/logo.png" width="1050"/>
+<img alt="React Native Beautiful State View" src="assets/logo.png" width="1050"/>
 
+[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-beautiful-state-view)
 
-[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-library-boilerplate)
+[![React Native Library Boiler Plate](https://img.shields.io/badge/-React%20Native%20Library%20Boilerplate-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-beautiful-state-view)
 
-
-[![React Native Library Boiler Plate](https://img.shields.io/badge/-React%20Native%20Library%20Boilerplate-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-library-boilerplate)
-
-
-[![npm version](https://img.shields.io/npm/v/react-native-library-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-library-boilerplate)
-[![npm](https://img.shields.io/npm/dt/react-native-library-boilerplate.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-library-boilerplate)
+[![npm version](https://img.shields.io/npm/v/react-native-beautiful-state-view.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-beautiful-state-view)
+[![npm](https://img.shields.io/npm/dt/react-native-beautiful-state-view.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-beautiful-state-view)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
 <p align="center">
-  <img alt="React Native Library Boilerplate"
-        src="assets/Screenshots/JSLibraryBoilerplate.png" />
+  <img alt="React Native Beautiful State View"
+        src="assets/Screenshots/example.png" />
 </p>
 
 # Installation
@@ -23,7 +20,7 @@
 Add the dependency:
 
 ```ruby
-npm i react-native-library-boilerplate
+npm i react-native-beautiful-state-view
 ```
 
 ## Peer Dependencies
@@ -40,32 +37,37 @@ npm i react-native-library-boilerplate
 ## Import
 
 ```js
-import { Component1, Component2 } from "react-native-library-boilerplate";
+import BeautifulStateView from "./lib/BeautifulStateView";
 ```
 
-## Component1 Usage
+## Usage
 
-```js
-<Component1 />
+```jsx
+<BeautifulStateView
+  resizeMode="contain"
+  image={require("./assets/marketing_.png")}
+/>
 ```
 
 # Configuration - Props
 
-| Property |  Type   | Default | Description                                             |
-| -------- | :-----: | :-----: | ------------------------------------------------------- |
-| outline  | boolean |  true   | make the button outline                                 |
-| solid    | boolean |  false  | make the button with a solid background and a shadow    |
-| gradient | boolean |  false  | make the button with a gradient background and a shadow |
-| width    | number  |   150   | change the button's width                               |
+| Property                     |   Type   |                              Default                               | Description                                                   |
+| ---------------------------- | :------: | :----------------------------------------------------------------: | ------------------------------------------------------------- |
+| title                        |  string  |                  Get free your unlimited space !                   | change the title of the component                             |
+| description                  |  string  | Get free unlimited space for your document just one subscription ! | change the description of the component                       |
+| primaryButtonText            |  string  |                         I wanna subscribe                          | change the primary button's text                              |
+| secondaryButtonText          |  string  |                         Not now, Thanks !                          | change the secondary button's text                            |
+| primaryButtonOnPress         | function |                             undefined                              | set the function for primary button's onPress functionality   |
+| secondaryButtonOnPress       | function |                             undefined                              | set the function for secondary button's onPress functionality |
+| primaryButtonTextColor       |  color   |                              #fdfdfd                               | change the primary button's text color                        |
+| primaryButtonShadowColor     |  color   |                              #725dff                               | change the primary button's shadow color                      |
+| primaryButtonBackgroundColor |  color   |                              #725dff                               | change the primary button's background color                  |
+| primaryButtonTextColor       |  color   |                             undefined                              | change the primary button's text color                        |
 
 ## Future Plans
 
 - [x] ~~LICENSE~~
 - [ ] Write an article about the lib on Medium
-
-# Change Log
-
-Change log will be here !
 
 ## Author
 
@@ -73,4 +75,4 @@ FreakyCoder, kurayogun@gmail.com
 
 ## License
 
-React Native Library Boilerplate is available under the MIT license. See the LICENSE file for more info.
+React Native Beautiful State View is available under the MIT license. See the LICENSE file for more info.

@@ -8,17 +8,16 @@
 
 import React from "react";
 import { StatusBar, SafeAreaView } from "react-native";
+import BeautifulStateView from "react-native-beautiful-state-view";
 
-import BeautifulStateView from "./lib/BeautifulStateView";
-
-const App: () => React$Node = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <BeautifulStateView
-          image={require("./assets/marketing_.png")}
           resizeMode="contain"
+          image={require("./assets/marketing_.png")}
         />
       </SafeAreaView>
     </>
