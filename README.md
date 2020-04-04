@@ -69,6 +69,10 @@ import BeautifulStateView from "./lib/BeautifulStateView";
 - [x] ~~LICENSE~~
 - [ ] Write an article about the lib on Medium
 
+## Credits
+
+Thank you so much for this awesome design [George Karry](https://www.uplabs.com/posts/cloud-document-app-ui-kit)
+
 ## Author
 
 FreakyCoder, kurayogun@gmail.com
